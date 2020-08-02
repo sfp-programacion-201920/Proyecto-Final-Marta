@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--Metadatos e información que el usuario no puede ver.-->
+    <title>Noticias sobre el K-Pop</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marta de la Calle González">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="Noticias sobre K-Pop. Últimas noticias sobre grupos, artistas en solitarios, y sus comebacks">"
+    <meta name="keywords" content="Kpop, K-pop, Korean Music, Comebacks">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+    <!--Información que se va a ver en la página web-->
+    <header>
+        <a id="inicio"></a>
+        <a href="#final">Final de la página</a>
+
+        <figure>
+        <!--La etiqueta picture hace que no tenga en cuenta la resolución del dispotivo, solo la resolución.-->
+            <picture> 
+                <source media="(max-width: 799px)" srcset="./images/index/artistasmasescuchados.jpg">
+                <source media="(min-width: 800px)" srcset="./images/index/artistasmasescuchados.jpg">
+                <img src=".jpg" width="800" height="570">
+            </picture>
+            <figcaption>Artistas más escuchados en 2019. De izquierda a derecha: BTS, Blackpink, Twice, EXO.</figcaption>
+        </figure>
+        <h1>NOTICIAS SOBRE KPOP</h1>
+    </header>
+
+    <nav id="indice"> 
+        <a class="boton" href="">Formulario</a>
+        <a class="boton" href="#Intro">Introducción</a>
+        <a class="boton" href="#Boygroups">Boygroups</a>
+        <a class="boton" href="#Girlgroups">Girlgroups</a>
+        <a class="boton" href="#Solistas">Solistas</a>
+    </nav>
+
+
+    <main>
+       <section id="Intro">
+            <h2>Introducción al Kpop</h2>
+
+       </section>
+       <section id="Boygroups">
+           <h2>Boygroups</h2>
+            <audio controls preload="none">
+                <source src="./sounds/btsspeech.mp3" tyoe="audio/mp3">
+                <source src="./sounds/btsspeech.ogg" type="audio/ogg">
+            </audio>
+       </section>
+       <section id="Girlgroups">
+            <h2>Girlgroups</h2>
+            <video controls preload="metadata" width="800px">
+                <source src="./videos/howyoulikethat.mp4" type="video/mp4">
+                <source src="./videos/howyoulikethat.ogg" type="video/ogg">
+                <source src="./videos/howyoulikethat.webm" type="video/webm">
+            </video>
+       </section>
+       <section id="Solistas">
+        <h2>Solistas</h2>
+       </section>
+    </main>
+        
+</body>
+
+</html>
