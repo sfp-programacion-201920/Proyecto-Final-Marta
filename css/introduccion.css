@@ -1,0 +1,26 @@
+body 
+{
+    font-family: ;
+    background-image:url(https://blog.ticketmaster.es/wp-content/uploads/2020/01/dlckgbau8aexvwi.jpg) ;
+    background-attachment: fixed;
+    opacity: 80%;
+    background-color: white;
+}
+
+table 
+{
+    width:25%;
+    border-collapse:collapse;
+    background-color: #234592;
+}
+td 
+{
+    border:2px solid black; 
+    text-align: center;
+}
+
+nav 
+{
+    text-align: center;
+}
+
