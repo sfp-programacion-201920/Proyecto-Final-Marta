@@ -1,4 +1,48 @@
+
 body
 {
-font-family: ;
+    background-color: purple;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    text-align: justify;
+    background-image: url(https://blog.ticketmaster.es/wp-content/uploads/2020/01/dlckgbau8aexvwi.jpg);
+    background-attachment: fixed;
+    opacity: 100%;
 }
+
+#inicio
+{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+h1
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav
+{
+    text-align: center;
+}
+
+section
+{
+    margin: 150px;
+    color: royalblue;
+    align-items: center;
+    border-radius: 10px;
+}
+
+article
+{
+    background-color: pink;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+
