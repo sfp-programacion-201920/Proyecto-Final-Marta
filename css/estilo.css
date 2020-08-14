@@ -1,11 +1,18 @@
+header
+{
+    color: white;
+}
 
 body
 {
     background-color: purple;
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
-    text-align: justify;
+    text-align: center;
     background-image: url(https://blog.ticketmaster.es/wp-content/uploads/2020/01/dlckgbau8aexvwi.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     background-attachment: fixed;
     opacity: 100%;
 }
@@ -25,14 +32,17 @@ h1
 nav
 {
     text-align: center;
+    margin: 75px 50px 0px 50px;
 }
 
 section
 {
-    margin: 150px;
-    color: royalblue;
+    margin: 250px;
+    padding: 50px;
+    background-color: rgba(192, 192, 192, 0.9); 
     align-items: center;
-    border-radius: 10px;
+    border-radius: 15px;
+    border: 2px solid black;
 }
 
 article
@@ -40,9 +50,27 @@ article
     background-color: pink;
     margin: 30px;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
+    border: 2px solid black;
 }
 
+.introduccion
+{
+    background-color: rgba(65, 105, 225, 0.7) ;
+}
 
+.bg
+{
+    background-color: rgba(91, 158, 89, 0.7);
+}
 
+.gg
+{
+    background-color: rgba(255, 255, 0, 0.7) ;
+}
+
+.solista
+{
+    background-color: rgba(255, 0, 0, 0.7) ;
+}
 
