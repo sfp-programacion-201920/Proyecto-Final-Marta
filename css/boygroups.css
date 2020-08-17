@@ -1,0 +1,75 @@
+body
+{
+    background-color: rgb(64, 160, 64);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 100%;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 21px;
+    text-align: center;
+    color: white;
+}
+
+h2
+{
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 3em;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#cravity
+{
+    background-image: url(https://kprofiles.com/wp-content/uploads/2020/04/cravity.jpeg);
+}
+
+#ateez
+{
+    background-image: url(https://thestandom.com/wp-content/uploads/2019/09/IMG_20190919_062014.jpg);
+}
+
+#treasure
+{
+    background-image: url(https://i2.wp.com/spainaigo.com/wp-content/uploads/2020/02/treasure4.jpeg?resize=1280%2C640&ssl=1);
+}
+
+#the9
+{
+    background-image: url(https://www.nacionrex.com/__export/1597506544104/sites/debate/img/2020/08/15/1the9-se-despide-separacion-ultima-presentacion_crop1597505599700.jpg_1902800913.jpg);
+}
+
+article
+{
+    margin: 30px;
+    margin-top: 0px;
+    padding: 20px;
+    padding-top: 0px;
+
+p
+{
+    text-align: justify;
+}
+
+aside
+{
+    margin: 30px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+footer
+{
+    background-color: slategrey;
+    text-align: center;
+}
+
+footer span
+{
+    color: white;
+}

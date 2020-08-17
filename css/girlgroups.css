@@ -1,7 +1,6 @@
 body
 {
-    background-color: royalblue;
-    background-image: url(https://i.pinimg.com/originals/6a/85/b9/6a85b9692320edbdfe42d565de02d715.jpg);
+    background-color: rgb(216, 216, 89);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -23,6 +22,16 @@ h2
     margin-bottom: 5px;
 }
 
+#itzy
+{
+    background-image: url(https://6.viki.io/image/6113ae0463394d35b774486c6936541e.jpeg?s=900x600&e=t);
+}
+
+#bp
+{
+    background-image: url(https://www.noraemagazine.com/wp-content/uploads/2019/04/blackpink-backstage-a-coachella-2019-a-billboard-1548-2842849264-1555319043713-1210x642.jpg);
+}
+
 article
 {
     margin: 30px;
@@ -36,39 +45,11 @@ p
     text-align: justify;
 }
 
-table.generos 
-{
-    width:25%;
-    border-collapse:collapse;
-    background-color: rgb(204, 67, 90);
-    margin: 350px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-table.idols
-{
-    border-collapse: collapse;
-    background-color: rgb(204, 67, 90);
-}
-
-td 
-{
-    border:2px solid black; 
-    text-align: center;
-}
-
-ul
-{
-    text-align: left;
-    color: white;
-}
-
 aside
 {
     margin: 30px;
     margin-top: 0px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     padding: 20px;
     padding-top: 0px;
 }

@@ -1,0 +1,76 @@
+body
+{
+    background-color: rgb(207, 60, 60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 100%;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 21px;
+    text-align: center;
+    color: white;
+}
+
+h2
+{
+    color: white;
+    font-family: 'Alegreya Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 3em;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#seungwoo
+{
+    background-image: url(https://6.viki.io/image/6a724be04b4c4cf5ba369da5c761989d.jpeg?s=900x600&e=t);
+}
+
+#sunmi
+{
+    background-image: url(https://www.noraemagazine.com/wp-content/uploads/2020/06/SUNMI-COMEBACK-e1592325623449.jpg);
+}
+
+#chungha
+{
+    background-image: url(https://kpoplat.com/wp-content/uploads/2020/06/Chungha-1.jpg);
+}
+
+#woodz
+{
+    background-image: url(https://images.squarespace-cdhttps://images.squarespace-cdn.com/content/56eb012f27d4bd29de975fae/1571957897923-35J06ZAJFEAUX2FL7NTY/SOTW_WOODZ_HEADER.jpg?format=1500w&content-type=image/jpegn.com/content/56eb012f27d4bd29de975fae/1571957897923-35J06ZAJFEAUX2FL7NTY/SOTW_WOODZ_HEADER.jpg?format=1500w&content-type=image%2Fjpeg);
+}
+
+article
+{
+    margin: 30px;
+    margin-top: 0px;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+p
+{
+    text-align: justify;
+}
+
+aside
+{
+    margin: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+footer
+{
+    background-color: slategrey;
+    text-align: center;
+}
+
+footer span
+{
+    color: white;
+}
