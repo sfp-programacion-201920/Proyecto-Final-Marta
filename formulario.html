@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Formulario</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marta de la Calle González">
+    <meta name="keywords" content="Kpop, K-pop, KPop, Korean Music">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="Formulario de registro">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/formulario.css" type="text/css">
+    <link rel="icon" type="image/png" href="../images/icons/icon.png">
+    <script src="./javascript/formulario.js"></script>
+</head>
+
+<body>
+    <header>
+        <h2>Formulario de registro</h2>
+    </header>
+    <main>
+        <form action="mailto:martadelacallegonzalez@gmail.com" method="POST" name="fomulario" onsubmit="validar_form()" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="nombre">Introduce tu nombre:</label><input type="text" name="nombre" id="nombre" autofocus placeholder="Nombre">
+                <br>
+                <label for="apellidos">Introduce tus apellidos: </label><input type="text" name="Apellidos" id="apellidos" size="50" placeholder="Apellidos">
+                <br>
+                <label for="contraseña">Contraseña: </label><input type="password" id="contraseña" name="contraseña" onblur="valid_contraseña()">
+                <br>
+                <label for="contraseña2">Repita la contraseña: </label><input type="password" id="contraseña2" name="contraseña2" onchange="adv_contraseña()">
+                <br>
+                <label for="edad">Edad: </label><input type="number" name="edad" id="edad">
+                <br>
+                <label for="telefono">Número de teléfono: </label><input type="tel" onchange="compr_tlf()" id="telefono" name="telefono">
+                <br>
+                <label for="correo">Correo electronico para confirmar el registro: </label><input type="email" id="correo" name="correo" size="50" autocomplete="email" placeholder="@gmail.com, @outlook.es, @yahoo.com" onblur="valid_correo()">
+                <br>
+                <label for="fecha">Fecha de nacimiento: </label><input type="date" id="fecha" name="fecha">
+                <br>
+            </fieldset>
+            <fieldset>
+                <legend>Información sobre K-pop</legend>
+                <label for="año">Año en el que lo conociste: </label>
+                <br>
+                <select name="año" id="año"><optgroup label="Año"></optgroup>
+                    <option value="2005">2005</option>
+                    <option value="2006">2006</option>
+                    <option value="2007">2007</option>
+                    <option value="2008">2008</option>
+                    <option value="2009">2009</option>
+                    <option value="2010">2010</option>
+                    <option value="2011">2011</option>
+                    <option value="2012">2012</option>
+                    <option value="2013">2013</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                </select>
+                <br>
+                <label for="grupos">Grupos que stanneas/ sigues: </label>
+                <br>
+                <textarea name="grupos" id="grupos" rows="10" cols="50" placeholder="TWICE, GOT7, CIX, NCT, BVNDIT..."></textarea>
+                <br>
+                <label for="ultgr">Ult groups: </label><input type="text" id="ultgr" name="ultgr">
+                <br>
+                <label for="ultbias">Ult bias(es): </label><input type="text" id="ultbias" name="ultbias">
+                <br>
+                <br>
+                <label>Recibir noticias de: </label>
+                <br>
+                <input type="checkbox" name="boygroups"><label id="bg">Boygroups</label>
+                <br>
+                <input type="checkbox" name="girlgroups"><label id="gg">Girlgroups</label>
+                <br>
+                <input type="checkbox" name="solistas"><label id="solistas">Solistas</label>
+                <br>
+                <button type="submit" value="enviar" id="enviar" name="enviar">Enviar</button>
+                <button type="reset" value="reset" id="reset" name="reset">Reiniciar</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <figure>
+            <a href="../index.html">
+                 <picture>
+                        <img src="../images/volver.png" width="150" height="150" alt="Volver">
+                 </picture>
+            </a>
+        </figure>
+        <span>
+            Hecho por Marta de la Calle Gonzálezs
+            <br>
+            Blog de noticias para la asignatura Programacion B
+            <br>
+            Curso 2019-2020
+        </span>
+        <div id="rrss">
+            <figure>
+                <a href="https://twitter.com/martuki_57">
+                    <picture class="logos">
+                        <img src="../images/icons/twitter.png" width="50" height="50" alt="Twitter">
+                    </picture>
+                </a>
+            </figure>
+            <figure>
+                <a href="https://www.instagram.com/martuki_dlc/">
+                    <picture class="logos">
+                        <img src="../images/icons/instagram.png" width="50" height="50" alt="Instagram">
+                    </picture>
+                </a>
+            </figure>
+        </div>
+    </footer>
+</body>
+
+</html>
